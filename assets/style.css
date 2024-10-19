@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border{
+    border: 1px solid #1b3d47;
+}
+
+.container{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.main-frame{
+    background-color: #2b292a;
+    border-radius: 10px;
+    width: 310px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+
+.screen{
+    /* border: 1px solid black; */
+    width: 95%;
+    height: 25%;
+    margin: 25px 10px 0px 10px;
+
+}
+.screen .screen1{
+    width: 100%;
+    height: 75%;
+    color: white;
+}
+
+.screen .result{
+    width: 100%;
+    height: 25%;
+}
+
+.keypad{
+    width: 95%;
+    height: 325px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.keypad .additionals{
+    width: 100%;
+    height: 60px;
+    padding: 0 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.additionals .key{
+    border: none;
+    border-radius: 5px;
+    background-color: #1b3d47;
+}
+
+.keypad .numbers{
+    width: 75%;
+    height: 255px;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+} 
+
+.numbers .key{ /*  REPEtition*/
+    border: none;
+    border-radius: 5px;
+    background-color: #343434;
+    color: white;
+}
+
+.keypad .arithmetics{
+    width: 25%;
+    height: 255px;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.arithmetics .key{
+    border: none;
+    border-radius: 5px;
+    background-color: #1b3d47;
+}
+
+.key{
+    width: 60px;
+    margin:10px 5px;
+    height: 45px;
+}
+
+.zero{
+    width: 135px;
+}
+
+.del{
+    background-color: #01696a;
+}
+.del img{
+    width: 20px;
+    margin-bottom: 3px;
+}
+
+button{
+    color: white;
+}
+
+button:hover{
+    color: aliceblue;
+}
